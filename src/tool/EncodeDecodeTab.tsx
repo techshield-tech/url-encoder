@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Button, CopyButton, ErrorBox, Panel, Select, TextArea, Toolbar } from '../shell/ui';
+import { Button, CopyButton, ErrorBox, Panel, Select, TextArea, Toolbar } from '@mmoall/tool-kit';
 import {
   ENCODE_MODE_OPTIONS,
   percentDecodeForMode,

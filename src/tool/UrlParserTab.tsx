@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { Button, CopyButton, Panel, TextArea, Toolbar } from '../shell/ui';
+import { Button, CopyButton, Panel, TextArea, Toolbar } from '@mmoall/tool-kit';
 import { Field, StaticValue, TextField } from './local-ui';
 import type { QueryPair } from './query-json';
 import { buildUrl, getIdnInfo, parseUrl } from './url-parse';

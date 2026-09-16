@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Button, CopyButton, ErrorBox, Panel, TextArea, Toolbar } from '../shell/ui';
+import { Button, CopyButton, ErrorBox, Panel, TextArea, Toolbar } from '@mmoall/tool-kit';
 import { describeJsonError, formatJsonErrorInfo } from './json-error';
 import {
   buildQueryString,
