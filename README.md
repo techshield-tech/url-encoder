@@ -4,7 +4,7 @@ Encode/decode URLs and query strings, parse a URL into its components, and conve
 
 **Live:** https://techshield-tech.github.io/url-encoder/
 
-Part of [MMOALL Developer Tools](https://mmoall.com/tools).
+Part of [MMOALL Developer Tools](https://mmoall.com/tools). Also available at [mmoall.com/tools/url-encoder](https://mmoall.com/tools/url-encoder).
 
 ## Features
 
@@ -37,7 +37,7 @@ Part of [MMOALL Developer Tools](https://mmoall.com/tools).
 ### General
 
 - 100% client-side and offline — nothing is ever sent over the network.
-- Zero runtime dependencies (React only): percent-encoding, UTF-8 handling, and punycode decoding are all implemented from scratch. The one exception is converting an already-Unicode host to its ASCII/punycode form, which uses the browser's own `URL` parser (there's no simpler way to do IDNA `ToASCII` correctly without reimplementing it).
+- Runtime dependencies are React and `@mmoall/tool-kit` (the shared shell/UI/theme/embed/SEO package used across MMOALL tools). This tool's own logic — percent-encoding, UTF-8 handling, and punycode decoding — is implemented from scratch. The one exception is converting an already-Unicode host to its ASCII/punycode form, which uses the browser's own `URL` parser (there's no simpler way to do IDNA `ToASCII` correctly without reimplementing it).
 - Responsive down to 360px viewport width.
 
 ## Embedding
